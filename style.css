@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(15deg,#85C1E9, #1B4F72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container h1 span{
+    color: whitesmoke;
+    
+}
+
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #446279;
+    color:white;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 30px;
+    
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.container1{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background:#2CDAE1 ;
+    color: black;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 10;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+button:hover{
+    letter-spacing: 1px;
+    background-color:#446279 ;
+    color: white;
+}
+
+button img{
+    width: 16px;
+    margin-right: 10px;
+}
+
+select{
+    flex: 1;
+    color: white;
+    background:#446279 ;
+    height: 40px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position-x: calc(100% - 20px);
+    background-position-y:20px
+}
